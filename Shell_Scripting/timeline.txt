@@ -1,1 +1,1 @@
-Day 1: Learn Basics - create directory, rename file, echo, variable making[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C making[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Directory making, variable creation, Echo, File creation
+Day 1: Learn Basics - create directory, rename file, echo, variable making making Directory making, variable creation, Echo, File creation
