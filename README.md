@@ -17,7 +17,7 @@ Documenting my learning process serves multiple purposes:
 
 ## Feedback
 
-I welcome any feedback or suggestions you may have regarding my learning journey. Feel free to reach out with insights, recommendations, or questions.
+I welcome any feedback or suggestions you may have regarding my learning journey. Feel free to reach out riteshojha2002@gmail.com Or create Issues with insights, recommendations, or questions.
 
 Thank you for joining me on this self-learning adventure!
 
