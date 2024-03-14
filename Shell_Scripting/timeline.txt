@@ -1,1 +1,0 @@
-Day 1: Learn Basics - create directory, rename file, echo, variable making making Directory making, variable creation, Echo, File creation
