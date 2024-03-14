@@ -35,4 +35,19 @@ echo "mv [s] [d]		- Move file"
 echo "rm			- Remove file"
 echo "rm -r [dir]		- Remove full directory"
 
+echo ""
+echo "			Day 3"
+echo ""
+
+echo "ln [p_o_T] [p_o_L]	- Use to create Hard Link btw files"
+echo "ln [P_O_TD]/* [P_O_LD}	- Use to create Hard link of multiple files"
+echo "unlink [P_O_L]		- Unlink Hard link of single file"
+echo "unlink [P_O_LD]		- Unlink Hard link of multiple files"
+echo "chgrp [group] [F/D]	- Change the Group of  Diles/ Directory"
+echo "groups			- To see all groups"
+echo "sudo chown [O] [F/D]	- Change the Owner of Files/ Directory"
+echo "chmod [prm] [F/D]		- Change Permission of Files/ Directory" \
+ "{ + : for Addition, - : fro removal, = : Exact} {u : User, g : group, o : Other}"
+echo ""
+
 
