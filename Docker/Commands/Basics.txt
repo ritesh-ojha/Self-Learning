@@ -1,0 +1,30 @@
+Container	- Lightweight, Portable and isolated software environment.
+		- It allow to run and pakage application with dependecies, consistently across diff platform.
+		- Help in streamline application development, Deployment and managment.
+
+Container Working
+		- Container share the Host OS kernal and leverage lightweight virtulazation technique to create isolated process.
+		- Efficiency
+		- Portability
+		- Fast Startup
+		- Consistency
+
+Docker		- It is a platform that simplifies the process of creation, deploy and manage container.
+
+
+Architecture
+				 ________ _______ _______
+				|	 |	 |   	 |
+				| APP 1	 | APP 2 | APP 3 |
+				|________|_______|_______|
+				|			 |
+				|	Docker Engine	 |
+				|________________________|
+				|			 |
+				|	Host OS	 	 |
+				|________________________|
+				|			 |
+				|	Hardware 	 |
+				|________________________|
+				
+				
