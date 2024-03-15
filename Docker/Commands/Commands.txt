@@ -1,0 +1,52 @@
+docker --version							- check the docker version
+
+docker pull <Image>							- Download images from Hub
+docker pull <Image>:<version>				- Download images of particular version
+
+docker search <images>						- Search images
+
+docker images								- See list of all images
+
+docker run <Image>							- Run docker Image
+
+
+docker run --name <cont_name> -d <Img_ID>	-run container with detach mode, return to container terminal
+docker run --name <cont_name> -it -d <Img_ID>	- run container in Interaction mode
+
+
+docker ps									- See the running container
+docker ps -a								- See the all containers
+
+docker inspect <cont_name>					- See the config of container
+
+
+docker exec -it <container_id> <command>	- Run command inside container
+
+docker stop <container_id/container_name>	- Stop contaier	
+
+docker restart <container_id>				- Restart the container	
+
+docker rm <container_id>					- remove past run containers
+
+docker rmi <image_ID/ Img_name>				- remove images from docker
+
+
+
+
+
+
+
+###########   Working With Mysql Container ##########
+
+docker pull mysql
+
+docker run --name mysqlDb -e MYSQL_ROOT_PASSWORD=root -d mysql
+
+docker inspect mysqlDb
+
+docker exec -it abb3199ecd65 bash
+
+
+
+
+
