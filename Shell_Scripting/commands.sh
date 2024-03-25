@@ -51,3 +51,15 @@ echo "chmod [prm] [F/D]		- Change Permission of Files/ Directory" \
 echo ""
 
 
+echo ""
+echo "			Day 4"
+echo ""
+
+echo "set -x				- To enable debug mode of shell script"
+echo "set -e				- Exit the script when there is an Error"
+echo "top					- Use to open the taskbar"
+echo "ps -ef				- to see the running process with full details"
+echo "grep					- Find the word "
+echo "man <cmd>				- Show the documentation of command"
+echo "curl <url>			- Get the file and show it content"
+echo "wget <url>			- Download the file from url"
