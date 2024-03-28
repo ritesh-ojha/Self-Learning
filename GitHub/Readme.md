@@ -11,6 +11,17 @@ To create a new repository:
 3. Select "New repository."
 4. Fill out the necessary information and create the repository.
 
+## Connect remote
+
+First make empty repo in local:
+
+git init
+
+Connect with remote:
+
+git remote add origin <git_repo_url>
+
+
 ## Branches
 
 To list all branches:
@@ -36,6 +47,24 @@ git commit -m "Commit message"
 To push changes to a remote repository:
 
 git push origin <branch_name>
+
+## Status
+
+To get the status:
+
+git status
+
+## Changes
+
+To see the changes of file 
+
+git diff
+
+## Log
+
+To see the changes and commit log in local:
+
+git log
 
 ## Pull Requests
 
