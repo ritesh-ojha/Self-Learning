@@ -95,6 +95,20 @@ services:
 
 ```
 
+## Docker Networking
+
+- **Bridge Network:**
+Default network mode in Docker.
+Each container connected to the bridge network has its own network interface and IP address.
+Containers can communicate with each other using their IP addresses or container names.
+Useful for isolating containers on the same host.
+
+- **Host Network:**
+Containers share the host's network namespace.
+Each container uses the host's network interface and IP address.
+Provides better performance as there's no additional network overhead.
+May expose security risks as containers have full access to the host network.
+
 
 
 ## Authors
