@@ -35,3 +35,8 @@ Learn More
 * [Power BI Blog](https://powerbi.microsoft.com/en-us/blog/)
 * [Power BI Community](https://community.powerbi.com/)
 * [Power BI YouTube Channel](https://www.youtube.com/user/mspowerbi)
+
+
+Author
+=====
+@[Ritesh Ojha](https://github.com/ritesh-ojha)
