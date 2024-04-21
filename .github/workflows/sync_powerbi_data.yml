@@ -21,7 +21,7 @@ jobs:
       - name: Clone Power BI Tutorial Repo
         run: |
           git clone https://github.com/ritesh-ojha/Power-BI.git power_bi
-	working-directory: .
+        working-directory: .
 
       - name: Sync Power BI Data and Commit Changes
         run: |
@@ -37,3 +37,4 @@ jobs:
               cd "../Power-BI"
             fi
           done
+        working-directory: .
