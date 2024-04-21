@@ -16,7 +16,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.name "ritesh-ojha"
-          git config --global user.email "riteshojha2002@example.com"
+          git config --global user.email "reeteshojha5@gmail.com"
 
       - name: Clone Power BI Tutorial Repo
         run: |
