@@ -17,12 +17,14 @@ jobs:
         run: |
           git config --global user.name "ritesh-ojha"
           git config --global user.email "reeteshojha5@gmail.com"
+          git config --global url.https://${{ secrets.PAT_TOKEN }}@github.com/.insteadOf https://github.com/
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
 
       - name: Clone Power BI Tutorial Repo
         run: |
           git clone https://github.com/ritesh-ojha/Power-BI.git power_bi
         working-directory: .
-
       - name: Sync Power BI Data and Commit Changes
         run: |
           cd "Power-BI"
