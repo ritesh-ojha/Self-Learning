@@ -51,8 +51,5 @@ TOPN(
 )
 ```
 
-
-
-
 # Author
 @[Ritesh Ojha](https://www.github.com/ritesh-ojha)
