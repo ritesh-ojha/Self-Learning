@@ -31,7 +31,7 @@ jobs:
               cp "$file" "../power_bi/"
               commit_message=$(git log --format=%B -n 1 -- "$file")
               cd "../power_bi"
-              git add "/$file"
+              git add "$file"
               git commit -m "$commit_message" --author="GitHub Actions <actions@github.com>"
               git push
               cd "../Power-BI"
