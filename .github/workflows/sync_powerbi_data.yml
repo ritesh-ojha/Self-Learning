@@ -1,0 +1,39 @@
+name: Sync Power BI Data
+
+on:
+  push:
+    paths:
+      - 'Power-BI/**' # Trigger on changes to the Power BI folder
+
+jobs:
+  sync_powerbi_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "ritesh-ojha"
+          git config --global user.email "riteshojha2002@example.com"
+
+      - name: Clone Power BI Tutorial Repo
+        run: |
+          git clone https://github.com/ritesh-ojha/Power-BI.git power_bi
+	working-directory: .
+
+      - name: Sync Power BI Data and Commit Changes
+        run: |
+          cd "Power-BI"
+          for file in *; do
+            if [ "$file" != ".git" ]; then
+              cp "$file" "../power_bi/"
+              commit_message=$(git log --format=%B -n 1 -- "$file")
+              cd "../power_bi"
+              git add "/$file"
+              git commit -m "$commit_message" --author="GitHub Actions <actions@github.com>"
+              git push
+              cd "../Power-BI"
+            fi
+          done
