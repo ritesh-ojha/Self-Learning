@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'Power-BI/**' # Trigger on changes to the Power BI folder
+  workflow_dispatch:
 
 jobs:
   sync_powerbi_data:
@@ -40,3 +41,4 @@ jobs:
             fi
           done
         working-directory: .
+        continue-on-error: true  
