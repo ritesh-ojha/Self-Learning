@@ -84,3 +84,35 @@ Spark is unified computing engine and set of libraries for parallel data process
 - **Worker Nodes**: These are the machines in the cluster that run the executors. They provide the processing power and memory needed to execute the tasks of a Spark application
 
 
+## Transformation and Action
+
+### Transformations
+In Apache Spark, transformations are process that take an existing data frame and turn it into a new one. Consider transformations as the cooking equivalent of recipe steps. With each transformation, you take your raw ingredients (data) and turn them into a new dish (new DF) by mixing, filtering, or shaping them.
+
+There are two types are transformations
+
+- **Narrow Transformation** : Transformations that do not result in data movement between partitions are called Narrow transformations.
+
+    - map
+    - flatMap
+    - filter
+    - union
+    
+
+- **Wide Transformation** : Transformations that involve data movement between partitions are called Wide transformations or shuffle transformations.
+
+    - groupByKey
+    - aggregate
+    - join
+    - repartition
+
+
+
+### Actions 
+Actions are operations that take a data frame and produce a result. Consider actions as the cooking equivalent of serving the dish.
+
+- show
+- count
+- collect
+- first
+- head
