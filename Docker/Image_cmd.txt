@@ -1,0 +1,4 @@
+touch Dockerfile
+
+docker built -t <imgae_name> <directory>
+
