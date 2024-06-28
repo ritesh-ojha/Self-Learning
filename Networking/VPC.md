@@ -1,6 +1,8 @@
 # VPC
+
 A Virtual Private Cloud (VPC) is a logically isolated section of a public cloud where you can launch resources in a virtual network that you define. It provides a high level of control over your virtual networking environment, including resource placement, connectivity, and security.
 
+![](img/vpc.png)
 ## Key Components of a VPC
 ### Subnets:
 
@@ -53,3 +55,5 @@ A Virtual Private Cloud (VPC) is a logically isolated section of a public cloud 
 
 - Seamlessly integrate with other cloud services, such as load balancers, databases, and storage solutions.
 - Leverage cloud provider's tools for monitoring, management, and automation.
+
+
